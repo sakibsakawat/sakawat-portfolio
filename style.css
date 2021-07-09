@@ -1,6 +1,7 @@
 body{
      margin: 0;
     font-family: 'Poppins', sans-serif;
+    
 }
 section{
     height: 500px;
@@ -65,7 +66,7 @@ section .experience{
 .experience div {
     height:80%;
     box-shadow: 10px 10px 30px gray;
-    border-radius:15px;
+    border-radius:0 15px 15px 0;
 }
 .expidiv p{
     width:90%;
@@ -74,8 +75,7 @@ section .experience{
 
 #older{
     border-left:5px solid;
-    border-image:linear-gradient( purple, tomato);
-    border-radius:5px;
+    border-image:linear-gradient( lightsalmon, tomato);
     border-image-slice: 1;
 }
 
@@ -84,6 +84,43 @@ section .experience{
     border-image:linear-gradient( blue,cyan);
     border-image-slice: 1;
 }
+
 footer p{
     text-align:center;
+    
+    padding-top:10px;
+    
+}
+.icon-area{
+    font-size:25px;
+    text-align:center;
+    
+   
+    
+}
+.icon-area i{
+     margin: 0 10px 10px 10px;
+     color: #e94826;
+     background-color:linear-gradient( lightsalmon, tomato);
+     transition: 2s, ease:
+}
+.fa-facebook-square:hover{
+    color:#1877f2;
+    
+}
+.fa-instagram-square:hover{
+    color:#c32aa3;
+    
+}
+.fa-twitter-square:hover{
+    color:#1da1f2;
+    
+}
+.fa-youtube-square:hover{
+    color:#ff0000;
+    
+}
+.fa-github-square:hover{
+    color:#1877f2;
+    
 }
